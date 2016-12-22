@@ -31,9 +31,13 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
+#MES GEMS
 gem 'devise'
-#gem 'bootstrap'
 gem 'high_voltage', '~> 3.0.0'
+gem 'globalize', github: 'globalize/globalize'
+gem 'activemodel-serializers-xml'
+#gem 'bootstrap'
 
 
 group :development, :test do
